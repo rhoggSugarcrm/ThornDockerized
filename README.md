@@ -10,7 +10,7 @@ Execute `docker exec -it thorn bash` to enter the container into /workspace <br 
 
 ## Executing the sample test file
 Enter /workspace/samples and run `./runtest.sh https://myurl.com/sugar user pass test.js`. Obviously the docker container has to be able to connect to https://myurl.com/sugar.<br />
-Note that every time you run the sample test file, a new Contact named John Smith will be created.
+Note that every time you run the sample test file, a new Contact and an Account will be created and immediately soft deleted.
 
 ## File locations
 The tests can be stored on the volume in ./data/ and on the container in /workspace<br />
