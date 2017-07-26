@@ -2,8 +2,8 @@
 Docker environment to run Thorn (https://github.com/sugarcrm/thorn) to test Sugar's REST API
 
 ## Running the container
-* Run the stack with `docker-compose up -d`
-* Stop the stack with `docker-compose down`
+* Run the container with `docker-compose up -d`
+* Stop the container with `docker-compose down`
 
 ## Accessing the container
 Execute `docker exec -it thorn bash` to enter the container into /workspace <br />
