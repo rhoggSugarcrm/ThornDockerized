@@ -1,0 +1,1 @@
+./runtest.sh https://myurl.com/sugar user pass test.js
