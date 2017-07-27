@@ -4,6 +4,7 @@ const {Agent, Fixtures} = require('@sugarcrm/thorn');
 
 describe('Contacts', function() {
     before(function*() {
+        this.timeout(30000);
         let account = {
             module: 'Accounts',
             attributes: {
@@ -20,6 +21,7 @@ describe('Contacts', function() {
     });
 
     it('should create John Smith', function*() {
+        this.timeout(10000);
         // create John Smith
         var first_name = 'John';
         var last_name = 'Smith';    

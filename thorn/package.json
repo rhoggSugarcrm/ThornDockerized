@@ -1,0 +1,6 @@
+{
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@sugarcrm/thorn": "^0.5.0-beta.1"
+  }
+}
