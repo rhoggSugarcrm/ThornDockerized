@@ -3,7 +3,7 @@ Docker environment to run Thorn (https://github.com/sugarcrm/thorn) to test Suga
 
 ## Building image
 Build the image with: `docker build -t thorn .`<br />
-Thorn version is defined on ./thorn/package.json to the latest 0.5.0-beta.1.
+Thorn version is defined on ./thorn/package.json to the latest 0.6.
 
 ## Executing the sample test file
 Assuming the tests are located inside the samples folder, it is possible to run ./samples/test.js with `docker run -v ${PWD}/samples:/tests -t -i thorn ./runtest.sh https://myurl.com/sugar user pass /tests/test.js`<br />
