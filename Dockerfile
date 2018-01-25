@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:boron
 MAINTAINER enrico.simonetti@gmail.com
 
 RUN npm install -g mocha co-mocha
